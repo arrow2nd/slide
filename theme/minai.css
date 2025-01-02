@@ -1,0 +1,41 @@
+/** @theme minai */
+
+@import "default";
+@import url("https://cdn.jsdelivr.net/npm/line-seed-jp/line-seed-jp.css");
+
+:root {
+  --color-black: #232934;
+  --color-light-black: #384153;
+  --color-arm-band: #92214A;
+  --color-gray: #B3B8C2;
+  --color-blue: #578CAD;
+  --color-green: #BBCACB;
+  --color-cyan: #76BFBA;
+  --color-red: #C66471;
+  --color-orange: #D4AF8D;
+  --color-yellow: #BEBF70;
+  --color-purple: #837591;
+  --color-magenta: #B06E82;
+
+  font-family: 'LINE Seed JP', sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+  color: var(--color-black);
+}
+
+h2 {
+  position: relative;
+  color: var(--color-black);
+  font-size: 1.6em;
+}
+
+a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+p {
+  color: var(--color-light-black);
+}

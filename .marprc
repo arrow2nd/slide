@@ -1,0 +1,4 @@
+themeSet: ./theme
+inputDir: ./src
+output: ./dist
+lang: ja

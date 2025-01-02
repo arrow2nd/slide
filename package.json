@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "marp -s ./src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@marp-team/marp-cli": "^4.0.4",
+    "@types/bun": "latest"
+  },
+  "name": "slide",
+  "module": "index.ts",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+
